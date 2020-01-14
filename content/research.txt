@@ -49,5 +49,6 @@
           our model systems. We show that this method yields strikingly accurate densities [<a href="https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.2.040801">A. R. Elmaslmane and
 	        J. Wetherell <i>et al.</i> Physical Review Materials (Rapid Communication) 2 040801(R) (2018)</a>]. <br><br>
 
+
         </div>
       </div>
