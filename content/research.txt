@@ -2,36 +2,42 @@
         <div class="contentTitle"><h1>Research Interests</h1></div>
         <div class="contentText">
           My research is primarily focused on systems of interacting electrons. The goal is to develop theories
-          able to accurately predict the time-dependence and excitations of electrons in nanostructures, that can then be applied to systems such as
-          molecular junctions, single molecules or atoms. The understanding and accurate modeling of such systems is crucial to technologies such
-          as integrated circuits.  The approach is to study model systems of several electrons that, using efficient computational techniques, can be solved exactly.
+          able to accurately predict the time-dependent properties and excitations of electrons in nanostructures, that can then be applied to systems such as
+          molecular junctions, single molecules or atoms. Due to the extremely rapid miniaturization of semiconductor electronics, silicon based integrated circuits are
+          reaching the limit of Moore’s law. Attempts to overcome this limitation has lead to the development of molecular electronics. In order to design the required molecular
+          characteristics to serve in large-scale devices, an accurate and computationally tractable theoretical description of electron interaction in the presence of dynamic
+          electric fields is needed.  The approach is to study model systems of several electrons that, using efficient computational techniques, can be solved exactly.
           This information is used to highlight, understand and quantify the failings of standard approximations, thus informing the development of improved novel methods.
           <br><br>
 
           <b>Many-Body Perturbation Theory</b><br>
-	  My main branches of research involve investigating existing, and developing novel, corrections to methods within Many-Body Perturbation Theory (MBPT). MBPT is
+	        One of my main branches of research involve investigating existing, and developing novel, corrections to methods within Many-Body Perturbation Theory (MBPT). MBPT is
           an intuitive theory that describes how a system responds when electrons are added and removed, with central concepts of the many-body Green's function and screened interaction.
           To date we are investigating the effect of the many flavors of the GW approximation on the electron density, associated Kohn-Sham potentials and quasi-particle energies by
           comparing to the exact quantities. <img src="files/ssc.png" alt="Self Screening Correction" style="width:280px;border:5px solid white;float:right;"> We are currenty using this to develop models of
-	  the electron screening that capture the correct behavior of the most well-performing GW flavors, without
+	        the electron screening that capture the correct behavior of the most well-performing GW flavors, without
           the onerous computation cost they entail. Thus far we have developed a novel vertex correction to the self-energy within a GW calculation that eliminates the unwanted effect of the
           well-known self-screening error with a very small additional computational cost [<a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.97.121102">J. Wetherell <i>et al.</i>
-          Physical Review B (Rapid Communications) 97 121102(R) (2018)</a>]. <br><br>We have also used these model systems to illustrate that, unlike Kohn-Sham density functional theory, many-body perturbation theory methods such as Hartree-Fock and the GW approximation exhibit Kohn’s concept of nearsightedness [<a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.045129">J. Wetherell <i>et al.</i> Physical Review B 99 045129 (2019)</a>]. This means that the potential describing one subsystem needs not contain any additional features due to the presence of surrounding subsystems. This is of particular importance when modeling molecules. See the following video (first presented at the ETSF Young Researcher's Meeting 2019) on this branch of research:<br><br>
+          Physical Review B (Rapid Communications) 97 121102(R) (2018)</a>]. <br><br>We have also used these model systems to illustrate that, unlike Kohn-Sham density functional theory, many-body
+          perturbation theory methods such as Hartree-Fock and the GW approximation exhibit Kohn’s concept of nearsightedness [<a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.045129">J. Wetherell <i>et al.</i> Physical Review B 99 045129 (2019)</a>]. This means that the potential describing one subsystem needs not contain any additional features due to the presence of surrounding subsystems. See the following video (first presented at the ETSF Young Researcher's Meeting 2019) on this branch of research:<br><br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JaSVguMFA-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/JaSVguMFA-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
           <b>Time-Dependent Density Functional Theory</b><br>
-	  As well as the exact ground-state density of our systems, we also have access to the exact time-dependent density and Kohn-Sham potential. We have recently shown that
-          LDAs (Local Density Approximations) can be constructed in finite systems from 'slab-like' systems of 1, 2 and 3 electrons
-          [<a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.205134">M. T. Entwistle <i>et al.</i> Physical Review B
-          94 205134 (2016)</a>]. We showed that these local approximations when applied adiabatically
-          as the time-dependent exchange-correlation potential before very poorly for the time-dependent density in tunneling system. Using the accurate self-energy approximations developed in
-          our MBPT work, I am looking at developing much more accurate time-dependent exchange-correlation functionals. <br><br>
+	        One of the fundamental challenges of TDDFT is approximating the Kohn-Sham (KS) exchange-correlation (xc) potential. We have shown that LDAs (Local Density Approximations) to the xc potential can be constructed in finite systems from 'slab-like' systems of 1, 2 and 3 electrons [<a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.205134">M. T. Entwistle <i>et al.</i> Physical Review B 94 205134 (2016)</a>]. We showed that these local approximations when applied adiabatically as the time-dependent exchange-correlation potential perform very poorly for the time-dependent density in a dynamic tunnelling system. We have learned from our work in MBPT that this is predominantly due to the lack of ‘nearsightedness’; an advantageous property that each electron is only effected by features of the fictitious potential in its own vicinity. Subsequently we construct a nearsighted form of generalised TD-KS theory based on unrestricted Hartree-Fock theory. [<a href="https://journals.aps.org/pra/accepted/e0077N44W991131cf72786b87dddc27ab813833a1">M. J. P. Hodgson and J. Wetherell. Physical Review A (2019)</a>]. We find simple approximations to our approach (we term our new approximation the ULDA+) give greatly improved electronic properties when applied to exactly-solvable model molecules, as they are required to capture far less complex physical phenomena. <img src="files/uhfks.png" alt="UHFKS" style="width:280px;border:5px solid white;float:right;"> The improvements this novel theory provides can be used to accelerate the rapid development of cutting-edge molecular technologies.
 
           <b>Machine Learning</b><br>
+          We are currently working on integrating modern machine learning approaches such as convolutional neural networks (CNNs) to inform the development of new methods in condensed
+          matter physics. Our general aim is to train machine learning models to learn the fundamental properties of important but difficult to approximate quantities such as the single-particle
+          reduced density matrix, and thus we can gain insight at a deep level, to what features are the most crucial and how we can describe them in a way that is the most amenable to approximation.
           <br><br>
 
           <b>The Connector Approach</b><br>
+          In many areas of condensed matter research, it is crucial to accuracly determine the physical properties of many-particle quantum systems. In practice, solving such problems exactly is
+          computationally intractable due to the complexity of such systems, and so approximations must be made. One method is to identify a class of model systems that can be solved exactly,
+          and then import these results from the models to the real system. This is in principle a fundamentally approximate approach. The connector approach allow us to, under certain
+          conditions, define a procedure of importing results that ensures the properties predicted for our system are exact. We are currently working on integrating this with our other
+          new appraoches to develop a new class of methods for condenced matter physics.
           <br><br>
 
           <b>Hybrid Functionals</b><br>
@@ -39,14 +45,7 @@
           one can generate more accurate results than the individual methods alone. <img src="files/hybrid.png" alt="Hybrid E vs N" style="width:280px;border:5px solid white;solid white;float:right;">
           We explored the effect of determining the mixing parameter via enforcing Koopermans' condition to hold in
           our model systems. We show that this method yields strikingly accurate densities [<a href="https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.2.040801">A. R. Elmaslmane and
-	  J. Wetherell <i>et al.</i> Physical Review Materials (Rapid Communication) 2 040801(R) (2018)</a>]. <br><br>
-
-          <b>The iDEA Code</b><br>
-	  I am a developer of the <a href="https://www-users.york.ac.uk/~rwg3/idea.html">interacting Dynamic Electrons Approach (iDEA) code</a>. This code is a Python software suite
-          (with Cython extensions) developed in Rex Godby's group at the
-          University of York since 2010. <img src="files/idea_logo.png" alt="The iDEA code" style="border:2px solid white;float:right;">
-          It has the capability to compute the exact ground-state and time-dependent properties of simple 1D model systems of few electrons. Along
-          with a suite of existing and novel approximations to DFT, TDDFT and MBPT for comparison. All of the work described above was carried out primarily using the iDEA code.
+	        J. Wetherell <i>et al.</i> Physical Review Materials (Rapid Communication) 2 040801(R) (2018)</a>]. <br><br>
 
         </div>
       </div>

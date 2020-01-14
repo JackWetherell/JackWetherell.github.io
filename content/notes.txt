@@ -1,10 +1,10 @@
-    </div>  
+    </div>
       <div class="contentText">
         <br>
         <a href="https://github.com/jw1294"><img src="images/github.png" width="40" alt="GitHub"></a>
         <!-- <a href="https://stackoverflow.com/users/1487087/jw1294"><img src="images/stack.png" width="40" alt="Stack Overflow"></a> -->
       </div>
-        <div class="contentTitle"><h1>Computing Cheat Sheets</h1></div>
+        <div class="contentTitle"><h1>Computing Cheat Sheets (Soon to be updated)</h1></div>
       <div class="contentText">
         <ul>
         <li><a href="files/linux.txt">Linux: An Operating System</a></li>
@@ -18,4 +18,3 @@
         </ul>
       </div>
     </div>
-
