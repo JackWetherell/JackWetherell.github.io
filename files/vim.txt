@@ -1,0 +1,42 @@
+Vim-------------------------------------------------------------------------------
+
+
+Esc        // Return to command mode
+i          // Enter insert mode (normal text editing)
+r          // Enter insert mode only to replace current character
+R          // Enter replace mode
+o          // Enter insert mode on new line
+O          // Enter insert mode on new line above this line
+hjkl       // Move cursor
+w          // Move cursor to start of next word
+b          // Move cursor to beginning of word
+e          // Move cursor to end of word
+%          // Jump to next bracket
+0          // Go to beginning of current line
+$          // Go to end of the current line
+*          // Jump to the next occurrence of the word under cursor
+#          // Jump to the previous occurrence of the word under cursor
+gg         // Jump to beginning of the file
+G          // Jump to the end of the file
+3G         // Jump to the third line of the file
+fo         // Find next occurance of character o
+/          // Enter search mode (n and N to browse)
+v          // Select characters (or uppercase V to select whole lines)
+d          // Cut seleced text 
+y          // Copy selected text
+p          // Paste
+d          // Delete word
+x          // Remove character under cursor
+u          // Undo
+3w         // Perform w 3 times
+.          // Repeat last command
+:w         // Save
+:q         // Quit
+:q!        // Quit without saving
+:help      // Get help
+:ls        // List number of files open
+:e file    // Edit a file
+:b file    // Switch to a file
+
+
+--------------------------------------------------------------------------------

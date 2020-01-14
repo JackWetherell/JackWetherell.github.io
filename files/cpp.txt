@@ -1,0 +1,202 @@
+Core Language (C++)-------------------------------------------------------------------------------------------------
+
+Namespaces
+----------
+namespace myNamespace{classes,variables}   // Groups together classes and variables into one entity
+using namespace myNamespace;               // Needed to use entities outside of the namespace
+myNamespace::variableName                  // Accesses a member from outside the namespace
+
+Classes
+-------
+class className{content};                  // Declare a class
+className(){code}                          // Runs 'code' when 'className' is constructed
+~className(){code}                         // Runs 'code' when 'className' is deconstructed
+className objectName;                      // Constructs a class 'className' into an instance object'objectName'
+objectName.functionName();                 // Calls 'objectName' to perform function 'functionName'
+objectPointer->functionName();             // Runs 'functionName' using a pointer to the object 'objectPointer'
+className::staticFucntion();               // Calls a static function inside className
+className operator+ (className b)          // Overload the operator '+'
+class derived: public base                 // Derived inherits members from base
+this                                       // Pointer to own clas
+public:                                    // Accessible outside the class
+protected:                                 // Not accessible outside the class apart from a derived classes 
+private:                                   // Not accessible outside the class
+static                                     // Can be accessed with no instance of class
+friend                                     // External function or class can have access to all members 
+virtual                                    // Can be overwritten in derived class
+virtual = 0                                // Must be overwritten in derived class (no function body)
+
+Structs
+-------
+struct structName{members};                // A structure containing variables
+structName objectName;                     // Create a new instance of structName
+
+Interfaces
+----------
+class IMyInterface{methods}                // Interface of method declerations (must all be pure virtial)
+class className : public IMyInterface      // Inheriting from an interface (can be multiple)
+
+Functions
+---------
+void functionName(){code}                  // Creates a function called 'functionName'
+void functionName(int x){code}             // Creates a Subroutine called 'functionName'
+void functionName(int x = 0){code}         // 'functionName' that uses default parameters
+functionName();                            // Calls the function 'functionName'
+x = functionName();                        // Calls the function 'functionName' 
+functionName(x);                           // Calls the function 'functionName'
+
+Program Controll
+----------------
+if(test){code}                             // If statement
+else{}                                     // Else statement
+switch(x){case 1: case 2: default: ect}    // Switch statement (remember to add 'break;')
+while(test){code}                          // While loop
+for(int i = 1; i < 10; i++){code}          // For loop
+&&                                         // AND
+||                                         // OR
+!                                          // NOT
+==                                         // equall
+
+Variables
+---------
+char x;                                    // Creates variable 'x' that is a single character
+short x;                                   // Creates variable 'x' that is an integer 
+int x;                                     // Creates variable 'x' that is an integer 
+long x;                                    // Creates variable 'x' that is an integer 
+float x;                                   // Creates variable 'x' that is a floating point number
+double x;                                  // Creates variable 'x' that is a floating point number
+string x;                                  // Creates variable 'x' that is a string of characters
+bool x;                                    // Creates variable 'x' that is a boolian logic statement 
+const int x;                               // Creates variable 'x' that cannot be changed
+
+Arrays
+------
+int arrayName[n]                           // Creates array 'arrayName' that has n integers
+int arrayName[n][m]                        // Creates array 'arrayName' that has n rows and m columns
+arrayName[1][1] = 5;                       // Set the values of an array at (1,1)
+x = arrayName[1][1];                       // Sets x to the values of an array at (1,1)
+
+Vectors
+-------
+vector<int> vectorName(10,0);              // Grows a vector with 10 elements of 0
+vector<int> vectorName();                  // Declares an empty vector
+vectorName.push_back(10);                  // Add a '10' to the end of the vector
+vectorName.pop_back();                     // Deleat the last element of the vector
+vectorName.size();                         // Gets the size of the vector
+vectorName[i];                             // Gets or sets the element of a vector
+VectorName.front();                        // Gets first element
+Vectorname.back();                         // Gets last element
+
+Enumerations
+------------
+enum Colours{Red,Orange,Yellow,Green,Blue} // Creates an enumeration of items
+Colours colour = Red;                      // Creates a colour from the enumeration
+
+Templates
+---------
+template <class var>                       // Creates a generic data type called 'var'
+
+Type Casting
+------------
+()                                         // Standard ctype casting (Make use of wrapper classes also)
+double dblName = atof(strName.c_str());    // Converts 'strName' to a double 'dblName' (needs <cstdlib>)
+int intName = atoi(strName.c_str());       // Converts 'strName' to a int 'intName' (needs <cstdlib>)
+std::stringstream out; out << dblName;     // These two lines converts 'dblName'
+strName = out.str();                       // to a string 'StrName' (needs <sstream>)
+
+Mathematical Operations
+-----------------------
++-*/=%                                     // Simple arithmatic add, subtract, multiply, divide, make equall, remainder
+++--                                       // Increase and decrease
+cos(x)sin(x)tan(x)acos(x)asin(x)atan(x)    // Computes trig functions in radians
+cosh(x)sinh(x)tanh(x)                      // Computes hyperbolic functions
+exp(x)log(x)pow(x,y)sqrt(x)                // Computes e^x, ln(x), x^y and the square root of x
+ceil(x)floor(x)                            // Rounds up or down x
+fabs(x)                                    // Computes |x|
+srand(time(0));                            // Seeds a random number
+n + rand()%m;                              // Returns a random number between n and m (integer)
+double x = (double)rand()/(double)RAND_MAX;// Returns a random number between 0 and 1 (double)
+system("command");                         // Runs a command through command prompt
+
+Memory Handling
+---------------
+&x                                         // Finds the memory location of 'x' (in hexadecimal)
+int *pointerName = &x;                     // Creates a pointer called 'pointerName' that points to where 'x' is
+*pointer                                   // Pointer to variable
+pointer                                    // Actual address of variable in hex
+void passByRef(int *x){*x = 1;}            // A subroutine that edits the variable 'x' by reference
+passByRef(&x);                             // Runs the function 'passByRef' using a pointer
+sizeof(x);                                 // Gives the number of bytes of memory the variable takes up
+int* *x;                                   // Creates variable 'x' that is a pointer to an integer pointer
+
+Error Handling
+--------------
+try{code}                                  // Try to execute a piece of code
+if(test for error){throw 1;}               // If the test for error is sucessfull throw error number: 1
+catch(int e){error message}                // Catch the error that is thrown and display error message
+
+Input and Output
+----------------
+cout << "text";                           // Prints out 'text' to terminal
+cout <<  endl;                            // Goes to next line
+cout << "text \n";                        // Prints out 'text' to terminal and goes to next line
+cin >> x;                                 // Stores the line up to first space entered by user
+system("cls");                            // Clears the screen
+ofstream fileName("file.txt");            // Creates an object called 'fileName'
+ofstream fileName("f.txt", ios_base::app);// Creates an object called 'fileName'  
+ifstream fileName("file.txt");            // Creates an object called 'fileName'
+fileName.is_open()                        // Returns a bool to say if the file is open
+fileName << "text";                       // Writes 'text' to 'fileName'
+fileName >> variable;                     // Reads a bit from 'fileName' to variable
+getline(fileName, stringName);            // Reads a line from 'fileName' to 'stringName'
+fileName.close();                         // Closes 'fileName'
+
+Preprocessor directives
+-----------------------
+#include <iostream>                        // Needed for all programs that use input and output
+#include <cstdlib>                         // Creates random numbers
+#include <exception>                       // Needed for error handling
+#include <fstream>                         // Needed to work with files
+#include <vector>                          // Needed to work with vectors
+#include <thread>                          // Needed to work with threads
+#include <string>                          // Needed to use the 'string' variable type
+#include <math.h>                          // Needed to use the math functions
+#include <ctime>                           // Needed to use time(0); (to seed random numbers);
+#define PI 3.14159265                      // Needed to use PI (can define any constant needed)
+
+
+Numerical Development (LAPACK++)--------------------------------------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+GUI Development (GTKMM)-----------------------------------------------------------------------------------------------------
+
+Windows
+-------
+Glib::RefPtr<Gtk::Application> app =      // Creates a application pointer to begin building windows
+Gtk::Application::create(argc, argv,      // It takes some stardard command line arguments
+"org.gtkmm.examples.base");               // And returns a application pointer
+Gtk::Window window;                       // Create a gtk window object
+window.set_default_size(200, 200);        // Set the default size of the windows
+return app->run(window);                  // Returning this seems to draw the window ????????
+
+
+Graphics Development (OpenGL)-----------------------------------------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+Multimedia Development (SDL)------------------------------------------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+

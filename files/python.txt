@@ -1,0 +1,172 @@
+Core Language (Python)-----------------------------------------------------------------
+
+
+Modules
+-------
+import module_name                         // Import external module
+import module_name as mn                   // Import external module under a given name
+import myFile                              // Import external .py file (if not in current directory must be in python path)
+export PYTHONPATH=$PYTHONPATH:path/n.py    // Add a python file to your python path
+myFile.attribute                           // Access an attribute of imported module
+from module_name import thing              // Import particular thing from a module (no need for module_name.)
+from module_name import thing as t         // Import particular thing from a module under a given name (no need for module_name.)
+
+Classes
+-------
+class ClassName:                           // Defines a class
+attribute = int()                          // Defines a public class attribute
+__attribute = int()                        // Defines a private class attribute
+def method(self):                          // Defines a member method
+def __init__(self):                        // Defines class constructor
+def __del__(self):                         // Defines class destructor
+def __str__(self):                         // Defines class string
+self.                                      // This object
+object_name = ClassName()                  // Creates an instance of a class
+object_name.                               // Use attribute of object
+class DerivedClass(BaseClass):             // Inheritance
+class DerivedClass(Base1, Base2):          // Multiple Inheritance
+object_name.attribute = variable           // Add (or repace) a attribute to a object
+object_name.method = function              // Add (or repace) a method to a object
+
+Structs
+-------
+class StructName:                          // Defines a struct if class only constains attributes (no methods)
+
+Enumerations
+------------
+class Colors:                              // Create a class to loosely represent enumeration
+RED = 1                                    // Set a part of an enumeration
+BLUE = 1                                   // Set a part of an enumeration
+car.color = Colors.RED                     // Use a part of an enumeration
+
+Tuples
+------
+tuple_name = (ob1,ob2,ob3)                 // Creates a tuble of objects (fixed size and values)
+tuple_name[int]                            // Gets the value of 'tuple_name' at a given index
+
+Functions
+---------
+def function_name():                       // Define a function 'function_name'
+def function_name(para):                   // Define a function 'function_name' that takes a parameter
+def function_name(*para):                  // Define a function 'function_name' that takes a tuple
+def function_name(para1, para2):           // Define a function 'function_name' that takes multiple parameters
+def function_name(para = 0):               // Define a function 'function_name' that takes a default parameter
+return                                     // Function returns an object
+
+Program Controll
+----------------
+if(condition):                             // IF statement
+elif(condition):                           // ELIF statement
+else:                                      // ELSE statement
+==                                         // EQUALL
+and                                        // AND
+or                                         // OR
+not                                        // NOT
+while(condition):                          // WHILE loop
+for i in range(0,10):                      // FOR loop (range returns list of specified ints)
+break                                      // Break out of loop
+
+Variables
+---------
+x = bool()                                 // Creates Variable 'x' that is a boolean
+x = int()                                  // Creates Variable 'x' that is an integer
+x = long()                                 // Creates Variable 'x' that is a long integer
+x = float()                                // Creates Variable 'x' that is a floating point number
+x = complex()                              // Creates Variable 'x' that is a complex number
+x = str()                                  // Creates Variable 'x' that is a string
+
+Lists
+-----
+list_name = []                             // Creates a  blank list 'list_name'
+list_name = [ob1,ob2,ob3,ob4]              // Creates a list 'list_name' of any object
+list_name[i]                               // Gets the value of 'list_name' at a given index i
+list_name[-i]                              // Gets the value of the ith last element of 'list_name'
+new_list = list_name[a:b]                  // Returns list from element a to b
+new_list = list_name[a:b:inc]              // Returns list from element a to b incremented by inc
+new_list = list_name[:]                    // Copies a list
+new_list = l1 + l2                         // Concatenates two lists
+s in list_name                             // Returns True if value 's' is in list 'list_name'
+for s in list_name                         // Iterate over 'list_name', returning the elements one at a time 
+len(list_name)                             // Returns length of 'list_name'
+max(list_name)                             // Returns maximum element of 'list_name'
+min(list_name)                             // Returns minimum element of 'list_name'
+list_name = list(str)                      // Create a list 'ListName' of characters from a string 'str'
+list_name = "string".split(" ")            // Split a string into a list of strings using given delimiter
+del list_name[i]                           // Deleats element from a list
+list_name.index(element)                   // Returns first index that 'element' appears in 'list_name'
+list_name.count(element)                   // Returns how many times 'element' appears in 'list_name'
+list_name.append(element)                  // Add 'element' to end of 'list_name'
+list_name.extend(l2)                       // Add list 'l2' to end of 'list_name'
+list_name.insert(index, element)           // Insert an element in the list 'list_name' at given index
+list_name.remove(element)                  // Remove an element from the list 'list_name'
+list_name.reverse()                        // Reverses list 'list_name' 
+
+Dictionaries
+------------
+dict_name = {}                             // Creates a  blank dictionary 'dict_name'
+dict_name = {'k1':ob1,'k2':ob2,'k3':ob3}   // Creates a dictionary 'dict_name' of any objects each with a key
+dict_name['k1']                            // Gets the value of 'dict_name' from a given key
+len(dict_name)                             // Returns length of 'dict_name'
+dict_name.keys()                           // Returns list of keys in dict_name
+
+Mathematical Operations
+-----------------------
++-*/=%                                     // Simple arithmatic add, subtract, multiply, divide, make equall, remainder
+++--                                       // Increase and decrease
+cos(x)sin(x)tan(x)acos(x)asin(x)atan(x)    // Computes trig functions in radians (math.)
+cosh(x)sinh(x)tanh(x)                      // Computes hyperbolic functions (math.)
+exp(x)log(x)pow(x,y)sqrt(x)                // Computes e^x, ln(x), x^y and the square root of x (math.)
+ceil(x)floor(x)                            // Rounds up or down x (math.)
+fabs(x)                                    // Computes |x| (math.)
+
+Error Handling
+--------------
+try:                                       // Try statement
+except:                                    // Catch statement
+except ValueError:                         // Specific catch statement
+finally:                                   // Finally statement
+raise                                      // Raise an exception
+assert                                     // raises a AssertionException if followind statement is False
+
+Input and Output
+----------------
+x = input(prompt)                          // Prompts user to enter value for a variable (number)
+x = raw_input(prompt)                      // Prompts user to enter value for a variable (string)
+print(string)                              // Prints a string compatible variable to the screen
+print('x = {}'.format(x))                  // Print a formatted string with single variable
+print('x = {0}, y = {1}'.format(x,y))      // Print a formatted string
+file_name = open(path,'w')                 // Opens a file for writing
+file_name = open(path,'r')                 // Opens a file for reading
+file_name.write(string)                    // Write a string to file
+file_name.read()                           // Read all file
+file_name.read(int)                        // Read 'int' bytes from file
+file_name.readline()                       // Read line from file
+file_name.readlines()                      // Read all lines from file
+file_name.close()                          // Close file
+
+
+Numerical Development (Scipy)-----------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+GUI Development (PyGTK)-----------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+Graphics Development (PyOpenGL)-----------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+Multimedia Development (PyGame(PySDL))-----------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+-----------------------------------------------------------------

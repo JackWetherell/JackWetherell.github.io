@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<title>Jack Wetherell</title>
+</head>
+
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+</style>
+
+<body>
+    <div id="page">
+
+        <div id="header">
+                <h1><a href="profile.html" style="color: #26476E;">Dr. Jack Wetherell</a></h1>
+            <h2>Theoretical Physicist</h2>
+
+      </div>
+        <div id="bar">
+            <ul>
+                <li><a href="research.html">Research Interests</a></li>
+                <li><a href="idea.html">iDEA</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="conf.html">Conferences</a></li>
+                <li><a href="colab.html">Collaborators</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="notes.html">Computing</a></li>
+            </ul>

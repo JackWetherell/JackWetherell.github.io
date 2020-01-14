@@ -1,0 +1,9 @@
+cat top.txt content/profile.txt bottom.txt > index.html
+cat top.txt content/profile.txt bottom.txt > profile.html
+cat top.txt content/research.txt bottom.txt > research.html
+cat top.txt content/teaching.txt bottom.txt > teaching.html
+cat top.txt content/publications.txt bottom.txt > publications.html
+cat top.txt content/conf.txt bottom.txt > conf.html
+cat top.txt content/colab.txt bottom.txt > colab.html
+cat top.txt content/idea.txt bottom.txt > idea.html
+cat top.txt content/notes.txt bottom.txt > notes.html

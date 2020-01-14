@@ -1,0 +1,97 @@
+LaTex---------------------------------------------------------------------------------------------------
+
+
+Documents
+---------
+\documentclass[11pt]{article}                           // Specify document type and font size
+\begin{document}                                        // Tag to begin document
+\title{Title}                                           // Title
+\author{Jack Wetherell}                                 // Auther
+\date{October 31, 1975}                                 // Date
+\maketitle                                              // Make a title page
+\tableofcontents                                        // Make a contents page
+\section{Name of section}                               // Section
+\subsection{Name of subsection}                         // Subsection
+\ref{Name of section}                                   // Refers to section
+
+Formatting
+----------
+\textit{text}                                           // Italics
+\textbf{text}                                           // Bold
+\texttt{text}                                           // Typewriter
+\begin{center}                                          // Centre text
+\begin{flushleft}                                       // Left allign
+\begin{flushright}                                      // right allign
+\\                                                      // New line character
+\newpage                                                // New Page
+
+Mathematics
+-----------
+$A=x^2+4x+3$                                            // Inline equation
+$$A=x^2+4x+3$$                                          // Offline equation
+$e^{ix}$                                                // Superscripts
+$x_{1}$                                                 // Subscripts
+$\sqrt{2}$                                              // Square roots
+$\sqrt[3]{2}$                                           // Cube roots
+$\sigma$                                                // Greek letters 
+$\cos{\theta}$                                          // Trig functions
+$\log_e{x}$                                             // Log functions
+$\ln{x}$                                                // Natural log functions
+$\frac{2}{3}$                                           // Fractions
+$\displaystyle{\frac{2}{3}}$                            // Fractions
+$\left(x\right)$                                        // Parentheses
+$\left[x\right]$                                        // Brackets
+$\left\{x\right\}$                                      // Curly brackets
+$\left|x\right|$                                        // Line brackets					
+$\left.x\right|$                                        // Only right bracket
+$\sum_{i=1}^\infty$                                     // Summation
+\int_a^b f(x) dx                                        // Integral
+\pm                                                     // Plus or minus
+\approx                                                 // Approximatly equall to
+\text{text}                                             // Write plain text in an equation
+
+Equations
+---------
+\begin{equation}                                        // Begin an equation
+\label{emc}                                             // Label the equation
+E = mc^2                                                // Actual equation
+\ref{emc}                                               // Refers to equation number
+
+Arrays
+------
+\begin{eqnarray}                                        // Begin an equation array
+\end{eqnarray}                                          // End an equation array
+&=&                                                     // Centre equations about equalls sign
+\setcounter{equation}{0}                                // Restart equation numbering
+
+Tables
+------
+\begin{tabular}{|c|c|c|c|c|c|}                          // Create table with 6 columns with line seperators between each
+\hline                                                  // Add a horisontal line
+$x$ & $1$ & $2$ & $3$ & $4$ & $5$                       // Add a complete row
+\end{tabular}                                           // End table
+
+Lists
+-----
+\begin{itemize}                                         // Bulleted list
+\begin{enumerate}                                       // NUmbered list
+
+Graphics
+--------
+\includegraphics{file.jpg}                              // Include an image        
+\includegraphics[scale=0.5]{file.jpg}                   // Rescale an image
+
+Figures
+-------
+\begin{figure}[h!]                                      // Create a figure with a caption 
+\caption{Caption here}                                  // Caption of figure
+
+Referencing
+-----------
+\begin{thebibliography}{9}                              // Begin the bibliography
+\bibitem{ref1}                                          // Add a reference
+Reference here.                                         // Reference text
+\cite{ref1}                                             // Cite a reference
+
+
+-------------------------------------------------------------------------------------------------------

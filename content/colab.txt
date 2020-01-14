@@ -1,0 +1,55 @@
+       </div>
+        <div class="contentTitle"><h1>Collaborators</h1></div>
+        <div class="contentText">
+
+
+          <p>École Polytechnique, Laboratoire des Solides Irradiés, 91120 Palaiseau, Paris, France:</p>
+          <ul>
+          <li><b>Postdoc Supervisor:</b> <a href="https://etsf.polytechnique.fr/People/Lucia">Dr. Lucia Reining</a> (Permanent Researcher and ETSF Vice-president)</li>
+	  <li><a href="https://etsf.polytechnique.fr/People/Matteo">Dr. Matteo Gatti</a> (Permanent Researcher)</li>
+          <li><a href="https://etsf.polytechnique.fr/node/3454">Ayoub Aouina</a> (PhD Student)</li>
+          </ul>
+
+          <p>Max Planck Institut für Mikrostrukturphysik, Weinberg 2, 06120 Halle (Saale), Germany:</p>
+          <ul>
+          <li><a href="http://www2.mpi-halle.mpg.de/theory_department/prof_dr_e_k_u_gross/">Prof. Dr. Hardy Gross</a> (Professor and Director)</li>
+          <li><a href="http://www-users.york.ac.uk/~mjph501/index.html">Dr. Matt Hodgson</a> (Postdoc)</li>
+          </ul>
+
+	  <p>University of York, Department of Physics, Heslington, YO19 5DD, UK:</p>
+          <ul>
+          <li><b>PhD Supervisor:</b> <a href="http://www-users.york.ac.uk/~rwg3/">Prof. Rex Godby</a> (Professor)</li>
+	  <li><a href="http://www-users.york.ac.uk/~me624/">Mike Entwistle</a> (PhD Student)</li>
+	  <li><a href="http://www-users.york.ac.uk/~km816/">Dr. Keith McKenna</a> (Reader and EPSRC Fellow)</li>
+	  <li><a href="http://www-users.york.ac.uk/~arem502/">Razak Elmaslmane </a> (PhD student)</li>
+          </ul>
+
+          <p>École Polytechnique Fédérale de Lausanne, Route Cantonale, 1015 Lausanne, Switzerland:</p>
+          <ul>
+          <li><a href="https://sites.google.com/site/leotalirz/">Dr. Leopold Talirz</a> (Postdoc)</li>
+          </ul>
+
+          <p>University of Oxford, Department of Materials, Oxford, OX1 2JD, UK:</p>
+          <ul>
+          <li><a href="https://www.linkedin.com/in/ewan-richardson-a4b5b3100/">Ewan Richardson</a> (PhD student)</li>
+          </ul>
+
+          <p>Imperial College London, Faculty of Natural Sciences, Kensington, London SW7 2AZ, UK:</p>
+          <ul>
+          <li><a href="http://www.imperial.ac.uk/mathematics/about-us/people/research-students/">Bradley Longstaff</a> (PhD student)</li>
+          </ul>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+

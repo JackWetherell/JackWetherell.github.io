@@ -1,0 +1,103 @@
+Basic Commands (BASH)--------------------------------------------------------------------------
+
+
+alias        # Create an alias
+apt-get      # Search for and install software packages
+awk          # Find and Replace text
+gb           # Send to background
+bzip2        # Compress or decompress named file
+cat          # Concatenate and print the content of files
+cd           # Change Directory
+chmod        # Change access permissions
+clear        # Clear terminal screen
+cmp          # Compare two files
+cp           # Copy one or more files to another location
+cut          # Divide a file into several parts
+date         # Display or change the date & time
+diff         # Display the differences between two files
+diff3        # Show differences among three files
+echo         # Display message on screen
+exit         # Exit the shell
+export       # Set an environment variable
+fg           # Send job to foreground 
+file         # Determine file type
+find         # Search for files that meet a desired criteria
+gnome-open   # Open a file in its default application
+grep         # Search file(s) for lines that match a given pattern
+head         # Output the first part of file(s)
+help         # Display help for a built-in command
+history      # Command History
+htop         # Interactive process viewer
+install      # Copy files and set attributes
+jobs         # List active jobs
+kill         # Kill a process by specifying its PID
+link         # Create a link to a file 
+locate       # Find files
+logout       # Exit a login shell
+look         # Display lines beginning with a given string
+ls           # List information about file(s)
+make         # Recompile a group of programs
+man          # Help manual
+mkdir        # Create new directory
+more         # Display output one screen at a time
+most         # Browse or page through a text file
+mv           # Move or rename files or directories
+nano         # Text Editor
+nohup        # Run a command immune to hangups (Remember to end in &)
+ping         # Test a network connection
+pwd          # Print Working Directory
+quota        # Display disk usage and limits
+reboot       # Reboot the system
+rm           # Remove files
+tmux         # Multiplex terminal
+scp          # Secure copy (remote file copy)
+sed          # Stream Editor
+shutdown     # Shutdown or restart linux
+sort         # Sort text files
+split        # Split a file into fixed-size pieces
+ssh          # Secure Shell client (remote login program)
+su           # Substitute user identity
+sudo         # Execute a command as another user
+tail         # Output the last part of file
+tar          # Store, list or extract files in an archive
+touch        # Change file timestamps
+top          # List processes running on the system
+users        # List users currently logged in
+watch        # Execute/display a program periodically
+wc           # Print byte, word, and line counts
+whereis      # Search the user's $path, man pages and source files for a program
+which        # Search the user's $path for a program file
+who          # Print all usernames currently logged in
+whoami       # Print the current user id and name (`id -un')
+.            # Run a command script in the current shell
+!!           # Run the last command again
+#            # Comment
+
+
+Terminal Multiplexing (tmux)----------------------------------------------------------------------
+
+
+tmux                 # Start new session
+tmux kill-session    # End session
+^b                   # Prefix key
+:                    # Intera­ctive dialog
+c                    # Create window
+w                    # List windows
+1                    # Go to window 1 (ect)
+n                    # Next window
+p                    # Previous window
+&                    # Kill window
+%                    # Vertical split
+"                    # Horizontal split
+arrows               # Move panes
+resize-pane -D 20    # Resize panes
+rename-window name   # Rename window
+
+
+Scripting (BASH)----------------------------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+--------------------------------------------------------------------------------------------------

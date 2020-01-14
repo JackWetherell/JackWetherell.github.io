@@ -1,0 +1,28 @@
+      </div>
+        <div class="contentTitle"><h1>Teaching</h1></div>
+        <div class="contentText">
+          <p>I have been involved in teaching undergraduate problem classes in the following modules:</p>
+          <ul>
+          <li>Lagrangian Mechanics</li>
+          <li>Introduction to Quantum Physics</li>
+          </ul>
+          <p>I have also been invloved in marking undergraduate Physics Practice Questions:</p>
+          <ul>
+          <li>Lagrangian Mechanics</li>
+          <li>Mathematical Physics 2</li>
+          <li>Special and General Relativity</li>
+          <li>Introduction to Quantum Physics</li>
+          </ul>
+          <p>I have demonstrated the following practical labs:</p>
+          <ul>
+          <li>Introduction to Python</li>
+          <li>Numerical Methods in Python</li>
+          </ul>
+          <p>I was also an undergraduate tutor in the following modules:</p>
+          <ul>
+          <li>Electromagnetism and Optics</li>
+          <li>Vibrations and Waves</li>
+          </ul>
+        </div>
+      </div>
+

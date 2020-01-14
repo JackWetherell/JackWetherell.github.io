@@ -1,0 +1,45 @@
+      </div>
+        <div class="contentTitle"><h1>Invited Talks</h1></div>
+        <div class="contentText">
+          <p>I have presented the following invited talks:</p>
+          <ul>
+	  <li><a href="https://www.cecam.org/workshop1712/">2019 Green’s function methods: the next generation 4 (Lausanne)</a></li>
+          <li><a href="http://www.mpi-halle.mpg.de/home">2018 Seminar at the Max Planck Institut für Mikrostrukturphysik (Halle)</a></li>
+          <li><a href="https://www.york.ac.uk/quantum-transport-workshop-2018/">2018 International First-Principles Modelling and Quantum Transport Simulations of 2D Materials (York)</a></li>
+          </ul>
+        </div>
+        <div class="contentTitle"><h1>Conferences</h1></div>
+        <div class="contentText">
+          <p>I have also presented my research at the following conferences, workshops and seminars:</p>
+          <ul>
+          <li><a href="http://etsf.polytechnique.fr/node/2936">The 2019 ETSF Correlation Team Meeting (Palaiseau)</a></li>
+          <li><a href="https://workshop.etsf.eu/node/2">The 24th ETSF Workshop on Electronic Excitations (Jena)</a></li>
+          <li><a href="https://www.yrmdonostia2019.com/">The 16th ETSF Young Researchers' Meeting (Donostia)</a></li>
+          <li><a href="http://etsf.polytechnique.fr/node/2936">The 2018 ETSF Correlation Team Meeting (Palaiseau)</a></li>
+          <li><a href="http://www.cvent.com/events/ccp9-young-researchers-event-and-community-meeting-2018/event-summary-d800eb5a79a74d558bf6a72f1d9edffc.aspx">The 2018 CCP9 Young Researchers Event (York)</a></li>
+          <li><a href="http://www.aps.org/meetings/march/about.cfm">APS March Meeting 2018 (Los Angeles)</a></li>
+          <li><a href="http://etsf.polytechnique.fr/node/2936">The 2017 ETSF Correlation Team Meeting (Palaiseau)</a></li>
+          <li><a href="https://yrm2017.github.io/">The 14th ETSF Young Researchers' Meeting (Tarragona)</a></li>
+          <li><a href="https://www.ccp9.ac.uk/node/1470">The 2017 CCP9 Young Researchers Event (Cambridge)</a></li>
+          <li><a href="http://dresden17.dpg-tagungen.de/Registrierung/teilnehmer.html?set_language=en&cl=en">DPG Spring Meeting 2017 (Dresden)</a></li>
+          <li>University of York Post Graduate Physics Conference 2016 (York)</li>
+          <li>University of York Condensed Matter Theory Seminars (York)</li>
+          <li><a href="https://eventbooking.stfc.ac.uk/news-events/the-2016-ccp9-young-researchers-event">The 2016 CCP9 Young Researchers Event (York)</a></li>
+          <li><a href="https://yrm2016.github.io/">The 13th ETSF Young Researchers' Meeting (London)</a></li>
+          <li><a href="https://www.york.ac.uk/physics/mqdworkshop/">Materials Quantum Dynamics workshop (York)</a></li>
+          </ul>
+        </div>
+	<img src="images/aps_mm_2018.png" width="400" alt="2018 APS March Meeting (Los Angeles)" style="margin:0px auto;display:block">
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+

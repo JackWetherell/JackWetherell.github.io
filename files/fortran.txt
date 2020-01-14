@@ -1,0 +1,198 @@
+Core Language (Fortran)--------------------------------------------------------------------------------------------------
+
+
+Modules
+-------
+
+module modulename
+use other_module, only: other_mod_var
+implicit none
+
+private
+
+integer, public :: module_var
+
+public :: module_routine
+
+contains
+
+subroutine module_routine
+...
+end subroutine
+
+end module
+
+Derived Types
+-------------
+type :: ball
+real :: radius
+real, dimension(2) :: position
+type(color) :: color
+end type
+
+type(ball) :: bouncy_ball
+bouncy_ball%color = BLUE
+bouncy_ball%position = [1.0, 2.1]
+
+Functions
+---------
+real function name(a, b)
+implicit none
+real, intent(in) :: a, b
+name = a + b
+end function
+
+c = name(a,b)
+
+Subroutines
+-----------
+subroutine name(a, b)
+implicit none
+real, intent(inout):: a
+real, intent(inout):: b
+a = a + 1
+b = b + 1
+end subroutine
+
+call name(a,b)
+
+Program Controll
+----------------
+program fortran_test             
+end program
+
+if(test) then
+  code
+elseif(test) then
+  code
+else
+  code
+end if
+
+if(test) code
+
+do while(test)
+end do
+
+do i = 0, 15, 5
+end do
+
+do
+exit
+end do
+
+.and.
+.or.
+== .eq.
+/= .ne.
+<  .lt.
+>  .gt.
+<= .le.
+>= .ge.
+.true.
+.false.
+
+OpenMP
+------
+CALL omp_set_num_threads( omp_get_max_threads() )
+
+!$OMP PARALLEL DEFAULT(NONE) &
+!$OMP & PRIVATE(private_var1, private_var2,...) &
+!$OMP & SHARED(shared_var1, shared_var2,...)
+!$OMP DO
+DO i=1,N
+code here
+END DO
+!$OMP END DO
+!$OMP END PARALLEL
+
+Variables
+---------
+implicit none
+
+integer, parameter :: longint = selected_int_kind(10) ! anything up to 10^10
+integer, parameter :: dp = selected_real_kind(15,300) ! 15 sig. fig.s from 10^-300 to 10^300
+
+integer               :: i1, i2, i3
+integer(kind=longint) :: li1, li2, li3 
+
+real         :: r1, r2, r3 
+real(kind=dp):: d1, d2, d3
+
+d1 = 4.0_dp
+
+logical :: l
+
+character(len=5)::c1 
+character(len=:), allocatable:: ca1
+allocate(character(len=5):: ca1)
+deallocate(ca1)
+
+complex(kind=dp):: comp1
+
+Arrays
+------
+integer(kind=longint), dimension(0:3):: array1D
+integer(kind=longint), dimension(0:3):: array1Di = 0
+integer(kind=longint), dimension(:),allocatable:: array1Da 
+allocate(array1Da(0:3))
+deallocate(array1Da)
+
+integer(kind=longint), dimension(0:3,0:3):: array2D 
+integer(kind=longint), dimension(0:3,0:3):: array2Di = 0
+integer(kind=longint), dimension(:,:),allocatable:: array2Da  
+allocate(array2Da(0:3,0:3)) 
+deallocate(array2Da)
+
+Enumerations
+------------
+enum, bind(C) :: color
+  enumerator :: RED = 4, BLUE = 9
+  enumerator YELLOW
+end enum
+
+type(color) :: mycolor = BLUE
+
+Type Casting
+------------
+int(x)
+real(x)
+real(x,kind=dp)
+char(x)
+
+Mathematical Operations
+-----------------------
++-*/**
+trig()
+exp()
+log()
+sqrt()
+abs()
+
+Input And output
+----------------
+!reading
+open (unit = 10, file = 'filename.dat', action="WRITE", position="REWIND")
+write(10,*) a,b,c
+
+open (unit = 10, file = 'filename.dat', action="WRITE", position="APPEND")
+write(10,*) a,b,c
+
+do
+open (unit = 10, file = 'filename.dat', action="READ")
+read(10,*,iostat=ios) a,b,c
+if (is_iostat_end(ios)) exit
+end do
+
+close(10)
+
+print*, a
+
+
+Numerical Development (LAPACK)----------------------------------------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+----------------------------------------------------------------------------------------------------------------------------

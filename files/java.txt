@@ -1,0 +1,284 @@
+Core Language (Java)---------------------------------------------------------------------------------------------------------------------------------------
+
+
+Packages
+--------
+package packageName;                                                      // File is part of a package
+import packageName.*;                                                     // Import a package
+import packageName.ClassName;                                             // Import a class from a package
+
+Classes
+-------
+class className{members}                                                  // A class containing methods, enumerations, variables, properties and events
+className objectName = new className();                                   // Create a new instance of className
+public className(){}                                                      // Constructor for 'className'
+~className(){}                                                            // Destructor for 'className'
+class derived extends base                                                // All of class 'base' members will be inherited to 'derived'
+private                                                                   // Private member (can only be used by this)
+public                                                                    // Public member (can be used by anything)
+protected                                                                 // Protected member (can be used by this and inherited classes)
+static                                                                    // Member that requires no instance
+const                                                                     // Member that is constant
+abstract                                                                  // Makes it impossible to create a instance of a class
+final                                                                     // Class cannot be inherited from (method can not be overwritten)
+this                                                                      // Object representing an instance of this class
+super                                                                     // Object representing an instance of base class
+
+Structs
+-------
+class structName{members};                                                // A structure containing variables
+structName objectName = new structName();                                 // Create a new instance of structName
+
+Interfaces
+----------
+interface IMyInterface{methods}                                           // Interface of method declerations (all are and must be public)
+class className implements IMyInterface                                   // Inheriting from an interface
+
+Methods
+-------
+void methodName(){code}                                                   // Creates a method called 'methodName'
+methodName();                                                             // Runs the method 'methodName'                             
+
+Program Controll
+----------------
+if(test){code}                                                            // If statement
+else{}                                                                    // Else statement
+string s = (test) ? "passed" : "failed"                                   // Ternary Operator
+switch(x){case 1: case 2: default: ect}                                   // Switch statement (remember to add 'break;')
+while(test){code}                                                         // While loop
+for(int i = 1; i < 10; i++){code}                                         // For loop
+break;                                                                    // Break out of current loop
+continue;                                                                 // Miss out current run in loop
+&&                                                                        // AND
+||                                                                        // OR
+!                                                                         // NOT
+==                                                                        // EQUALL
+
+Variables
+---------
+byte x;                                                                   // Creates variable 'x' that is an integer (0 - 255) (Int8)
+short x;                                                                  // Creates variable 'x' that is an integer (0 - 65535) (Int16)
+int x;                                                                    // Creates variable 'x' that is an integer (0 - 4294967295) (Int32)
+long x;                                                                   // Creates variable 'x' that is an integer (0 - 18446744073709551615) (Int64)
+boolean x;                                                                // Creates variable 'x' that is a boolian logic statement (true/false)
+float x;                                                                  // Creates variable 'x' that is a floating point number (7 dp)
+double x;                                                                 // Creates variable 'x' that is a floating point number  (15 dp)
+char x;                                                                   // Creates variable 'x' that is a single character
+String x;                                                                 // Creates variable 'x' that is a string of characters
+
+Arrays
+------
+int[] intArray = new int[length];                                         // Initialise an array with fixed length
+intArray[index]                                                           // Get or set an element of the array
+
+Lists
+-----
+ArrayList<String> Names = new ArrayList<String>();                        // Create new list
+Names.add(s);                                                             // Add element to list
+Names.clear();                                                            // Clear the list
+Names.get(index);                                                         // Get an element of the list
+Names.remove(index);                                                      // Remove an element of the list
+Names.size();                                                             // Gets the size of the list
+
+Enumerations
+------------
+enum Colours{Red,Orange,Yellow,Green,Blue;}                               // Creates an enumeration of items
+Colours colour = Colours.Red;                                             // Creates a colour from the enumeration
+
+Templates
+---------
+public class ClassName<T>                                                 // Class works with a generic type T
+public T MethodName(T t);                                                 // Method within class makes use of the generic type T
+
+Type Casting
+------------
+int i = Integer.parseInt(str);                                            // converts string str to int i
+()                                                                        // C++ style casting
+
+Mathematical Operations
+-----------------------
++-*/=%                                                                    // Simple arithmatic add, subtract, multiply, divide, make equall, remainder
+++--                                                                      // Increase and decrease
++=                                                                        // Add to variable
+cos(x)sin(x)tan(x)acos(x)asin(x)atan(x)                                   // Computes trig functions in radians (Math.)
+cosh(x)sinh(x)tanh(x)                                                     // Computes hyperbolic functions (Math.)
+exp(x)log(x)pow(x,y)sqrt(x)                                               // Computes e^x, ln(x), x^y and the square root of x (Math.)
+ceil(x)floor(x)                                                           // Rounds up or down x (Math.)
+fabs(x)                                                                   // Computes |x| (Math.)
+Random random = new Random();                                             // Random class (java.util.Random needed)
+random.nextInt(a,b)                                                       // Random integer from a to b
+
+Error Handling
+--------------
+try{code}                                                                 // Try to execute a piece of code
+catch(ExceptionType ex){error message}                                    // Catch the error that is thrown and display error message
+finally{code}                                                             // Code to run at end of try-catch group
+throw new Exception(ex);                                                  // Throw an exception 
+throws                                                                    // Method throws an exception type
+
+Input and Output
+----------------
+import java.util.Scanner;                                                 // Import scanner
+Scanner s = new Scanner(System.in);                                       // Create instance of scanner
+x = s.nextLine();                                                         // Read user input from standard in
+System.out.print(x);                                                      // Print to standard out
+System.out.println(x);                                                    // Print to standard out with new line
+File file = new File(path);                                               // Access an external file
+Scanner x = new Formatter(file.getPath());                                // Formatter to write to file
+x.format("text");                                                         // Write text to a file
+x.close();                                                                // Close file
+File file = new File(path);                                               // Access an external file
+Formatter x = new Scanner(file);                                          // Scanner to read from a file
+x.next();                                                                 // Read text from a file (space dependent)
+x.close();                                                                // Close file
+
+
+GUI Development------------------------------------------------------------------------------------------------------------
+
+
+Imports
+-------
+import java.awt.*;                                                         // Import AWT classes
+import java.awt.event.*;                                                   // Import event classes
+import javax.swing.*;                                                      // Import swing classes
+import javax.swing.event.*;                                                // Import swing event classes
+
+JFrame
+------
+public class MainForm extends JFrame{}                                     // Create form class
+public MainForm(){}                                                        // Constructor for form
+this.setTitle("Title");                                                    // Set title of form
+this.setSize(500, 500);                                                    // Set size of form
+this.setLayout(new FlowLayout());                                          // Set layout of form
+this.setResizable(false);                                                  // Set whether the form can be resized
+setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);                            // Allow form to be closed
+
+Jlabel
+------
+private JLabel label1;                                                     // Define a lable
+this.label1 = new JLabel();                                                // Create instance of lable
+this.label1.setText("This is a label");                                    // Set text for lable
+this.label1.setToolTipText("Hovering");                                    // Set rol-lover for lable 
+
+JButton
+-------
+private JButton button1;                                                   // Define a button
+this.button1 = new JButton();                                              // Create instance of button
+this.button1.setText("Click");                                             // Set text of button
+this.button1.addActionListener(event_button_OnClick);                      // Add action listener to button
+
+JTextField
+----------
+private JTextField textbox1;                                               // Define a textbox
+this.textbox1 = new JTextField("Enter Text Here");                         // Create instance of textbox
+this.textbox1 = new JTextField(30);                                        // Set length of textbox
+this.textbox1.addActionListener(event_textbox_OnEnter);                    // Add action listener to textbox
+this.textbox1.setEditable(false);                                          // Change editability of textbox
+
+JPasswordField
+--------------
+private JPasswordField textbox1;                                           // Define a textbox (Password)
+this.textbox1 = new JTextField(30);                                        // Create instance of textbox (Password)
+
+JCheckBox
+---------
+private JCheckBox checkbox1;                                               // Define a checkbox
+this.checkbox1 = new JCheckBox("CheckBox");                                // Create instance of checkbox
+this.checkbox1.isSelected()                                                // Is checkbox checked
+
+JRadioButton
+------------
+private JRadioButton radioButton1;                                         // Define a radiobutton
+this.radioButton1 = new JRadioButton("RB1", false);                        // Create instance of radiobutton 
+private ButtonGroup group1 = new ButtonGroup();                            // Create radiobutton group
+this.group1.add(radioButton1);                                             // Add radiobutton to group
+
+JComboBox
+---------
+private JComboBox comboBox1;                                               // Define a combobox
+this.comboBox1 = new JComboBox(Array);                                     // Create instance of combobox
+this.comboBox1.addItemListener(event_ComboBox_OnChange);                   // Add action listener to combobox
+
+JList
+-----
+private JList listBox1;
+this.listBox1 = new JList(Strings);                                        // Define a listbox
+this.listBox1.setVisibleRowCount(5);                                       // Create instance of listbox
+this.listBox1.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);       // Set selection mode for listbox
+this.listBox1.addListSelectionListener(event_List_OnChange);               // Add action listener to listbox
+
+JOptionPane
+-----------
+String s = JOptionPane.showInputDialog("Enter String:");                   // Get input dialog
+JOptionPane.showMessageDialog(null, string);                               // Show message box
+
+JPanel
+------
+private JPanel panel1;                                                     // Define a panel
+this.panel1 = new JPanel();                                                // Create instance of panel
+this.panel1.setBackground(Color.WHITE);                                    // Set background color of panel
+this.panel1.addMouseListener(event_Mouse_OnAct);                           // Add mouse listener to panel
+this.panel1.addMouseMotionListener(event_Mouse_OnAct);                     // Add mouse motion listener to panel
+
+Graphics
+--------
+public class DrawPanel extends JPanel                                      // Define Panel to draw onto
+public void paintComponent(Graphics g)                                     // Paintcomponent method
+super.paintComponent(g);                                                   // Paintcomponent method body
+this.setBackground(Color.WHITE);                                           // Set background color of panel
+g.setColor(Color.BLUE);                                                    // Set color of graphics
+g.fillRect(10, 10, 100, 100);                                              // Draw rectangle
+g.drawString("Text", 110, 110);                                            // Draw text
+
+Event handling
+--------------
+Textbox_OnEnter event_textbox_OnEnter = new Textbox_OnEnter();             // Instance of event handler
+Button_OnClick event_button_OnClick = new Button_OnClick();                // Instance of event handler
+ComboBox_OnChange event_ComboBox_OnChange = new ComboBox_OnChange();       // Instance of event handler
+List_OnChange event_List_OnChange = new List_OnChange();                   // Instance of event handler
+private class Textbox_OnEnter implements ActionListener                    // Define event handler
+public void actionPerformed(ActionEvent event)                             // ActionPerformed method
+if(event.getSource() == textbox1){textbox1_OnEnter();}                     // Method router
+private void textbox1_OnEnter(){}                                          // Event handliing method
+private class Button_OnClick implements ActionListener                     // Define event handler
+public void actionPerformed(ActionEvent event)                             // ActionPerformed method
+if(event.getSource() == button1){button1_OnClick();}                       // Method router
+private void button1_OnClick(){}                                           // Event handliing method
+private class ComboBox_OnChange implements ItemListener                    // Define event handler
+public void itemStateChanged(ItemEvent event)                              // ActionPerformed method
+if(event.getSource() == comboBox1){comboBox1_OnChange();}                  // Method router
+private void comboBox1_OnChange(){}                                        // Event handliing method
+private class List_OnChange implements ListSelectionListener               // Define event handler
+public void valueChanged(ListSelectionEvent event)                         // ActionPerformed method
+if(event.getSource() == listBox1){listBox1_OnChange();}                    // Method router
+private void listBox1_OnChange(){}                                         // Event handliing method
+
+
+Mouse Events
+------------
+Mouse_OnAct event_Mouse_OnAct = new Mouse_OnAct();                         // Create mouse onAct handler
+private class Mouse_OnAct implements MouseListener, MouseMotionListener{}  // Define mouse handler class
+public void mouseClicked(MouseEvent e){}                                   // Event for mouse clicked
+public void mouseEntered(MouseEvent e){}                                   // Event for mouse entering form
+public void mouseExited(MouseEvent e){}                                    // Event for mouse exiting form
+public void mousePressed(MouseEvent e){}                                   // Event for mouse pressed down
+public void mouseReleased(MouseEvent e){}                                  // Event for mouse released
+public void mouseDragged(MouseEvent e){}                                   // Event for mouse dragging
+public void mouseMoved(MouseEvent e){}                                     // Event for mouse moving
+
+
+
+Graphics Development ------------------------------------------------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+Multimedia Development ----------------------------------------------------------------------------------------------------
+
+
+WORK IN PROGRESS!
+
+
+----------------------------------------------------------------------------------------------------------------------------
+

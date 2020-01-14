@@ -1,0 +1,10 @@
+      </div>
+        <div class="contentTitle"><h1>Contact</h1></div>
+        <div class="contentText">
+          <p>Address: Department of Physics, University of York, Heslington, York YO10 5DD, United Kingdom</p>
+          <p>Office: Room N102a</p>
+          <p>Telephone: +44 (0)1904 324624</p>
+          <p>Email: jw1294@york.ac.uk</p>
+        </div>
+      </div>
+
