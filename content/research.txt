@@ -34,6 +34,7 @@
           reduced density matrix, and thus we can gain insight at a deep level, to what features are the most crucial and how we can describe them in a way that is the most amenable to approximation.
           <br><br>
 
+          <!--
           <b>The Connector Approach</b><br>
           In many areas of condensed matter research, it is crucial to accuracly determine the physical properties of many-particle quantum systems. In practice, solving such problems exactly is
           computationally intractable due to the complexity of such systems, and so approximations must be made. One method is to identify a class of model systems that can be solved exactly,
@@ -41,6 +42,7 @@
           conditions, define a procedure of importing results that ensures the properties predicted for our system are exact. We are currently working on integrating this with our other
           new appraoches to develop a new class of methods for condenced matter physics.
           <br><br>
+          -->
 
           <b>Hybrid Functionals</b><br>
           Hybrid functionals are usually considered the meeting point between DFT (LDA or PBE etc) and MBPT (Hartree-Fock). By mixing these potentials together via a linear mixing parameter
