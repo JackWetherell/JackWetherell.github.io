@@ -7,7 +7,7 @@
           <table>
           <tr>
             <th>6</th>
-            <th><a href="https://www.researchgate.net/publication/341565739_Insights_into_one-body_density_matrices_using_deep_learning" class="list-group-item">"Insights into one-body density matrices using deep learning", J. Wetherell, A. Costamagna, M. Gatti and L. Reining, Royal Society of Chemistry Faraday Discussions [under review] (2020). </a> </th>
+            <th><a href="https://www.researchgate.net/publication/341565739_Insights_into_one-body_density_matrices_using_deep_learning" class="list-group-item">"Insights into one-body density matrices using deep learning", J. Wetherell, A. Costamagna, M. Gatti and L. Reining, Royal Society of Chemistry Faraday Discussions (2020). </a> </th>
             <th><b><a href="files/hybrid.pdf">Reprint</a></b></th>
             <th><b><a href="https://arxiv.org/pdf/1803.11076.pdf">Preprint from arXiv.org</a></b></th>
           </tr>
