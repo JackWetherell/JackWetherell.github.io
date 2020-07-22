@@ -25,12 +25,12 @@
       	  <li><a href="http://www-users.york.ac.uk/~arem502/">Razak Elmaslmane </a> (PhD student)</li>
           </ul>
 
-          <p>Université de Strasbourg, Route Cantonale, 1015 Lausanne, Switzerland:</p>
+          <p>Université de Strasbourg, Rue Blaise Pascal, 67081 Strasbourg, France:</p>
           <ul>
           <li><a href="https://quantique.u-strasbg.fr/doku.php?id=en:pageperso:ef:welcome">Emmanuel Fromager</a> (Professor)</li>
           </ul>
 
-          <p>École Polytechnique Fédérale de Lausanne, Rue Blaise Pascal, 67081 Strasbourg, France:</p>
+          <p>École Polytechnique Fédérale de Lausanne,  Route Cantonale, 1015 Lausanne, Switzerland:</p>
           <ul>
           <li><a href="https://sites.google.com/site/leotalirz/">Leopold Talirz</a> (Postdoc)</li>
           </ul>
