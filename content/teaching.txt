@@ -1,4 +1,6 @@
       </div>
+
+
         <div class="contentTitle"><h1>Teaching</h1></div>
         <div class="contentText">
           <p>I have been involved in teaching undergraduate problem classes in the following modules:</p>
@@ -22,6 +24,47 @@
           <ul>
           <li>Electromagnetism and Optics</li>
           <li>Vibrations and Waves</li>
+          </ul>
+        </div>
+
+
+        <div class="contentTitle"><h1>Tutoring</h1></div>
+        <div class="contentText">
+          <p>have offered intensive tutoring for students preparing for exams in:</p>
+          <ul>
+          <li>Mathematics</li>
+          <li>Advanced quantum mechanics</li>
+          <li>Quantum information theory</li>
+          <li>Quantum computing</li>
+          </ul>
+        </div>
+
+
+
+        <div class="contentTitle"><h1>Supervision</h1></div>
+        <div class="contentText">
+          <p>I supervised the following students in Paris:</p>
+          <ul>
+          <li>2020: Andrea Costamagna (Masters researcher - Paris)</li>
+          <li>2019: Giacomo Doglio (Visiting bachelors researcher - Milan)</li>
+          </ul>
+        </div>
+
+
+
+        <div class="contentTitle"><h1>Co-Supervision</h1></div>
+        <div class="contentText">
+          <p>I co-supervised the following undergraduate students completing various projects in
+the group during my time as a PhD student:</p>
+          <ul>
+          <li>2018: Ryan Cocking (Summer researcher)</li>
+          <li>2018: Sean Adamson (Visiting summer researcher - Durham)</li>
+          <li>2017: Ewan Richardson (Masters researcher)</li>
+          <li>2017: Robbie Oliver (Visiting researcher - Oxford)</li>
+	  <li>2016: Amy Skelt (Masters researcher)</li>
+          <li>2016: James Quirk (Masters researcher)</li>
+          <li>2016: Daniele Torelli (Visiting masters researcher - Bologna)</li>
+          
           </ul>
         </div>
       </div>

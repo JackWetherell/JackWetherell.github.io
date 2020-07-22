@@ -2,15 +2,17 @@
         <div class="contentText">
           <p>
              <img style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px" src="images/profile.png" width="140"/>
-             I am a research scientist at the <a href="https://www.polytechnique.edu/en">École Polytechnique</a> in Palaiseau, in the group of
-             <a href="https://etsf.polytechnique.fr">Lucia Reining</a>, specialising in quantum chemistry, theoretical physics and machine learning.
-             My broad research aim is to develop improved models of electron interaction, that can be applied to systems at the cutting-edge of
-             quantum technology, such as molecular junctions. More specifically, I use exacly-solvable model systems to develop new approximations
-             within many-body perturbation theory and time-dependent density functional theory, integrating these approaches with modern machine learning methods.
-             I am also one of the lead developers of the <a href="http://www-users.york.ac.uk/~rwg3/idea.html">iDEA code</a>.
+		I am a theoretical physicist currently working as a research scientist at the <a href="https://www.polytechnique.edu/en">École Polytechnique</a> in Palaiseau, in the group of <a href="https://etsf.polytechnique.fr">Lucia Reining</a>.
+                My broad research aim is
+		to develop improved models of electron interaction, that can be applied to systems at
+		the forefront of quantum technology, such as molecular junctions. More specifically, I
+		use exactly-solvable model systems to develop new approximations within many-body
+		perturbation theory and time-dependent density functional theory. I work to integrate
+		modern deep learning methodologies into cutting edge theoretical descriptions of
+		matter. I am also a lead developer of the <a href="http://www-users.york.ac.uk/~rwg3/idea.html">iDEA code</a>.
           </p>
           <p>
-	           I received my PhD in theoretical physics in 2019, and my Master's degree in theoretical physics in 2015,
+	     I received my PhD in theoretical physics in 2019, and my Master's degree in theoretical physics with first class honours in 2015,
              in the group of <a href="https://www-users.york.ac.uk/~rwg3/">Rex Godby</a> at the <a href="https://www.york.ac.uk/">University of
              York</a>, UK.
           </p>
