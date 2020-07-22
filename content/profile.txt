@@ -2,7 +2,7 @@
         <div class="contentText">
           <p>
              <img style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px" src="images/profile.png" width="140"/>
-		I am a esearch scientist and theoretical physicist currently working as a research scientist at the <a href="https://www.polytechnique.edu/en">École Polytechnique</a> in Palaiseau, in the group of <a href="https://etsf.polytechnique.fr">Lucia Reining</a>.
+		I am a research scientist and theoretical physicist currently working at the <a href="https://www.polytechnique.edu/en">École Polytechnique</a> in Palaiseau, in the group of <a href="https://etsf.polytechnique.fr">Lucia Reining</a>.
                 My broad research aim is
 		to develop improved models of electron interaction, that can be applied to systems at
 		the forefront of quantum technology, such as molecular junctions. More specifically, I
