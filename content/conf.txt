@@ -12,6 +12,7 @@
         <div class="contentText">
           <p>I have also presented my research at the following conferences, workshops and seminars:</p>
           <ul>
+          <li><a href="https://www.rsc.org/events/detail/37136/new-horizons-in-density-functional-theory-faraday-discussion">The 2020 New horizons in density functional theory Faraday Discussion (Online)</a></li>
           <li><a href="http://etsf.polytechnique.fr/node/2936">The 2019 ETSF Correlation Team Meeting (Palaiseau)</a></li>
           <li><a href="https://workshop.etsf.eu/node/2">The 24th ETSF Workshop on Electronic Excitations (Jena)</a></li>
           <li><a href="https://www.yrmdonostia2019.com/">The 16th ETSF Young Researchers' Meeting (Donostia)</a></li>
@@ -31,15 +32,3 @@
         </div>
 	<img src="images/aps_mm_2018.png" width="400" alt="2018 APS March Meeting (Los Angeles)" style="margin:0px auto;display:block">
       </div>
-
-
-
-
-
-
-
-
-
-
-
-

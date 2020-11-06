@@ -2,20 +2,19 @@
         <div class="contentText">
           <p>
              <img style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px" src="images/profile.png" width="140"/>
-		I am a research scientist and theoretical physicist currently working at the <a href="https://www.polytechnique.edu/en">École Polytechnique</a> in Palaiseau, in the group of <a href="https://etsf.polytechnique.fr">Lucia Reining</a>.
-                My broad research aim is
-		to develop improved models of electron interaction, that can be applied to systems at
-		the forefront of quantum technology, such as molecular junctions. More specifically, I
-		use exactly-solvable model systems to develop new approximations within many-body
-		perturbation theory and time-dependent density functional theory. I work to integrate
-		modern deep learning methodologies into cutting edge theoretical descriptions of
-		matter. I am also a lead developer of the <a href="http://www-users.york.ac.uk/~rwg3/idea.html">iDEA code</a>.
-          </p>
-          <p>
-	     I received my PhD in theoretical physics in 2019, and my Master's degree in theoretical physics with first class honours in 2015,
-             in the group of <a href="https://www-users.york.ac.uk/~rwg3/">Rex Godby</a> at the <a href="https://www.york.ac.uk/">University of
-             York</a>, UK.
-          </p>
+
+             I am data scientist and researcher specializing in machine learning and theoretical physics.
+
+             At <a href="https://humn.ai/">Humn.ai</a> I am using machine learning for the creation of predictive models of risk in real-time for the platform’s
+             context-aware, real-time behavioural pricing and risk engine, with a focus on application to autonomous vehicles.
+
+             Prior to my current role, I completed an 18 month research contract at the <a href="https://www.polytechnique.edu/en">Ecole Polytechnique</a> in Paris. My re-
+             search was focused on the development and integration of modern machine learning and theoretical techniques
+             for the development of cutting edge quantum technology, such as real-time prediction of molecular electronics.
+
+             I am also the lead developer of the <a href="http://www-users.york.ac.uk/~rwg3/idea.html">iDEA code</a>, which is an international collaborative quantum mechanics simu-
+             lation package written in Python and C.
+
           <p>
              I am an associate member of the <a href="https://www.iop.org/">Institute of Physics</a> (IOP), a member of the
              <a href = "http://www.etsf.eu/">European Theoretical Spectroscopy Facility</a> (ETSF) and the
@@ -25,6 +24,6 @@
           <img src="images/logos.png" alt="Logos" width="325">
 	  </div>
           </br></br><b>Contact information:</b>
-          <p>Address: LSI, École Polytechnique, Route de Saclay, 91128 Palaiseau, France</p>
-          <p>Email: jack.wetherell@polytechnique.edu</p>
+          <p>Address: York, UK</p>
+          <p>Email: jack.wetherell@gmail.com</p>
       </div>
