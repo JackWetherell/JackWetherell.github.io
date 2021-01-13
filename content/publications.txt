@@ -14,13 +14,13 @@
           <tr>
             <th>8</th>
             <th><a href="https://pubs.rsc.org/en/content/articlelanding/2020/FD/D0FD90026E#!divAbstract" class="list-group-item">"New approaches to study excited states in density functional theory", Jan Gerit Brandenburg, J. Wetherell, et al, Royal Society of Chemistry Faraday Discussions (2020). </a> </th>
-            <th><b><a href="https://www.researchgate.net/publication/347200192_New_approaches_to_study_excited_states_in_density_functional_theory_general_discussion">Reprint</a></b></th>
+            <th><b><a href="files/f_states">Reprint</a></b></th>
             <th><b><a href="https://www.researchgate.net/publication/347200192_New_approaches_to_study_excited_states_in_density_functional_theory_general_discussion">Preprint</a></b></th>
           </tr>
           <tr>
             <th>7</th>
             <th><a href="https://pubs.rsc.org/en/content/articlelanding/2020/FD/D0FD90024A#!divAbstract" class="list-group-item">"Challenges for large scale simulation", Jan Gerit Brandenburg, J. Wetherell, et al, Royal Society of Chemistry Faraday Discussions (2020). </a> </th>
-            <th><b><a href="https://www.researchgate.net/publication/347117468_Challenges_for_large_scale_simulation_general_discussion">Reprint</a></b></th>
+            <th><b><a href="files/f_large">Reprint</a></b></th>
             <th><b><a href="https://www.researchgate.net/publication/347117468_Challenges_for_large_scale_simulation_general_discussion">Preprint</a></b></th>
           </tr>
           <tr>
