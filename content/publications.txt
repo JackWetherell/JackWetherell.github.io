@@ -6,39 +6,57 @@
           <p>My publications can also be found on my <a href="https://scholar.google.co.uk/citations?user=_LLNmaQAAAAJ&hl=en&citsig=AMstHGT7SV8GF57sSZ06QLBPTbIF9G1ZLg">Google Scholar</a> profile, <a href="https://www.researchgate.net/profile/Jack_Wetherell2">ResearchGate</a> and over at <a href="https://www.linkedin.com/in/jack-wetherell-921493158/">LinkedIn</a>. </p>
           <table>
           <tr>
+            <th>9</th>
+            <th><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.012806" class="list-group-item">"Exact exchange-correlation potentials for calculating the fundamental gap with a fixed number of electrons", M. J. P. Hodgson, J. Wetherell, and Emmanuel Fromager, Physical Review A 103 012806 (2021). </a> </th>
+            <th><b><a href="files/ml_1rdm.pdf">Reprint</a></b></th>
+            <th><b><a href="https://arxiv.org/pdf/2010.05642.pdf">Preprint</a></b></th>
+          </tr>
+          <tr>
+            <th>8</th>
+            <th><a href="https://pubs.rsc.org/en/content/articlelanding/2020/FD/D0FD90026E#!divAbstract" class="list-group-item">"New approaches to study excited states in density functional theory", Jan Gerit Brandenburg, J. Wetherell, et al, Royal Society of Chemistry Faraday Discussions (2020). </a> </th>
+            <th><b><a href="https://www.researchgate.net/publication/347200192_New_approaches_to_study_excited_states_in_density_functional_theory_general_discussion">Reprint</a></b></th>
+            <th><b><a href="https://www.researchgate.net/publication/347200192_New_approaches_to_study_excited_states_in_density_functional_theory_general_discussion">Preprint</a></b></th>
+          </tr>
+          <tr>
+            <th>7</th>
+            <th><a href="https://pubs.rsc.org/en/content/articlelanding/2020/FD/D0FD90024A#!divAbstract" class="list-group-item">"Challenges for large scale simulation", Jan Gerit Brandenburg, J. Wetherell, et al, Royal Society of Chemistry Faraday Discussions (2020). </a> </th>
+            <th><b><a href="https://www.researchgate.net/publication/347117468_Challenges_for_large_scale_simulation_general_discussion">Reprint</a></b></th>
+            <th><b><a href="https://www.researchgate.net/publication/347117468_Challenges_for_large_scale_simulation_general_discussion">Preprint</a></b></th>
+          </tr>
+          <tr>
             <th>6</th>
             <th><a href="https://pubs.rsc.org/en/content/articlelanding/2020/fd/d0fd00061b#!divAbstract" class="list-group-item">"Insights into one-body density matrices using deep learning", J. Wetherell, A. Costamagna, M. Gatti and L. Reining, Royal Society of Chemistry Faraday Discussions (2020). </a> </th>
             <th><b><a href="files/ml_1rdm.pdf">Reprint</a></b></th>
-            <th><b><a href="https://arxiv.org/pdf/2005.10672.pdf">Preprint from arXiv.org</a></b></th>
+            <th><b><a href="https://arxiv.org/pdf/2005.10672.pdf">Preprint</a></b></th>
           </tr>
             <th>5</th>
             <th><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032502" class="list-group-item">"Accurate real-time evolution of electron densities and ground-state properties from generalized Kohn-Sham theory", M. J. P. Hodgson and J. Wetherell, Physical Review A 101 032502 (2020). </a> </th>
             <th><b><a href="files/hfks.pdf">Reprint</a></b></th>
-            <th><b><a href="https://arxiv.org/pdf/1909.02510.pdf">Preprint from arXiv.org</a></b></th>
+            <th><b><a href="https://arxiv.org/pdf/1909.02510.pdf">Preprint</a></b></th>
           </tr>
           <tr>
             <th>4</th>
             <th><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.045129" class="list-group-item">"Advantageous nearsightedness of many-body perturbation theory contrasted with Kohn-Sham density functional theory", J. Wetherell, M. J. P. Hodgson, L. Talirz, and R. W. Godby, Physical Review B <b>99</b> 045129 (2019). </a> </th>
             <th><b><a href="files/nearsightedness.pdf">Reprint</a></b></th>
-            <th><b><a href="https://arxiv.org/pdf/1812.02661.pdf">Preprint from arXiv.org</a></b></th>
+            <th><b><a href="https://arxiv.org/pdf/1812.02661.pdf">Preprint</a></b></th>
           </tr>
           <tr>
             <th>3</th>
             <th><a href="https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.2.040801" class="list-group-item">"Accuracy of electron densities obtained via Koopmans-compliant hybrid functionals", A. R. Elmaslmane, J. Wetherell, M. J. P. Hodgson, K. P. McKenna, and R. W. Godby, Physical Review Materials (Rapid Communications) <b>2</b> 040801(R) (2018). </a> </th>
             <th><b><a href="files/hybrid.pdf">Reprint</a></b></th>
-            <th><b><a href="https://arxiv.org/pdf/1803.11076.pdf">Preprint from arXiv.org</a></b></th>
+            <th><b><a href="https://arxiv.org/pdf/1803.11076.pdf">Preprint</a></b></th>
           </tr>
           <tr>
             <th>2</th>
             <th><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.97.121102" class="list-group-item">"GW self-screening error and its correction using a local density functional", J. Wetherell, M. J. P. Hodgson, and R. W. Godby, Physical Review B (Rapid Communications) <b>97</b> 121102(R) (2018). </a> </th>
             <th><b><a href="files/self_screening.pdf">Reprint</a></b></th>
-            <th><b><a href="https://arxiv.org/pdf/1802.06826.pdf">Preprint from arXiv.org</a></b></th>
+            <th><b><a href="https://arxiv.org/pdf/1802.06826.pdf">Preprint</a></b></th>
           </tr>
           <tr>
             <th>1</th>
             <th><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.205134" class="list-group-item">"Local density approximations from finite systems", M. T. Entwistle, M. J. P. Hodgson, J. Wetherell, B. Longstaff, J. D. Ramsden, R. W. Godby, Physical Review B <b>94</b> 205134 (2016). </a> </th>
             <th><b><a href="files/lda1.pdf">Reprint</a></b></th>
-            <th><b><a href="https://arxiv.org/pdf/1611.01443.pdf">Preprint from arXiv.org</a></b></th>
+            <th><b><a href="https://arxiv.org/pdf/1611.01443.pdf">Preprint</a></b></th>
           </tr>
           </table>
         </div>

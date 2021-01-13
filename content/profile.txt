@@ -5,7 +5,7 @@
              I am data scientist and researcher specializing in machine learning and theoretical physics.
              <br>
              At <a href="https://humn.ai/">Humn.ai</a> I am using machine learning for the creation of predictive models of risk in real-time for the platform’s
-             context-aware, real-time behavioural pricing and risk engine, with a focus on application to autonomous vehicles.
+             context-aware, real-time behavioural pricing and risk engine, with application to fleets of autonomous vehicles.
              <br>
              Prior to my current role, I completed an 18 month research contract at the <a href="https://www.polytechnique.edu/en">Ecole Polytechnique</a> in Paris. My research was focused on the development and integration of modern machine learning and theoretical techniques
              for the development of cutting edge quantum technology, such as real-time prediction of molecular electronics.
