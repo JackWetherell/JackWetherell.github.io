@@ -7,7 +7,7 @@
           <table>
           <tr>
             <th>10</th>
-            <th><a href="hhttps://arxiv.org/abs/2106.16075" class="list-group-item">"Machine learning the derivative discontinuity of density-functional theory", J. Gedeon, J. Schmidt, M. J. P. Hodgson, J. Wetherell, C. L. Benavides-Riveros, M. A. L. Marques, arXiv (2021). </a> </th>
+            <th><a href="https://arxiv.org/pdf/2106.16075.pdf" class="list-group-item">"Machine learning the derivative discontinuity of density-functional theory", J. Gedeon, J. Schmidt, M. J. P. Hodgson, J. Wetherell, C. L. Benavides-Riveros, M. A. L. Marques, arXiv (2021). </a> </th>
             <th><b><a href="https://arxiv.org/pdf/2106.16075.pdf">Reprint</a></b></th>
             <th><b><a href="https://arxiv.org/pdf/2106.16075.pdf">Preprint</a></b></th>
           </tr>
