@@ -1,4 +1,11 @@
       </div>
+        <div class="contentTitle"><h1>Conference Organisation</h1></div>
+        <div class="contentText">
+          <p>I have been on the organising committee of the following conferences:</p>
+          <ul>
+          <li><a href="http://gdr-rest.polytechnique.fr/Discussion_Meeting_Machine_Learning">2021 GDR REST Machine Learning Discussion Meeting (Palaiseau)</a></li>
+          </ul>
+        </div>
         <div class="contentTitle"><h1>Invited Talks</h1></div>
         <div class="contentText">
           <p>I have presented the following invited talks:</p>
