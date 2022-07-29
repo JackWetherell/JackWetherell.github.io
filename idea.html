@@ -40,18 +40,26 @@ th, td {
         <div class="contentText">
 
         <img src="files/idea_logo.png" alt="The iDEA code" style="border:2px solid white;float:right;">
-	The goal of the iDEA code is to improve the accuracy of approximations within fundamental theories of many-electron quantum mechanics. The iDEA code (interacting Dynamic Electrons Approach) is a Python software suite (with Cython extensions) developed in Rex Godby's group at the University of York since 2010. It has a central role in a number of research projects related to many-particle quantum mechanics for electrons in matter. <br><br>
+		iDEA (interacting Dynamic Electrons Approach) is a high-performance, user friendly, free software framework in python for state-of-the-art research, experiments, testing and education in many-body quantum physics with a focus on reproducibility, interactivity and simplicity.
 
-	<b>iDEA's main features:</b>
-	<ul>
- 	<li>Exact solution of the many-electron (time-dependent) Schrödinger equation, including exact exchange and correlation</li>
-  	<li>Simplicity and exact solutions which approach the degree of exchange and correlation in realistic systems achieved using spinless electrons in one dimension</li>
-  	<li>An arbitrary external potential that may be time-dependent</li>
- 	<li>Optimisation methods to determine the exact (time-dependent) Kohn-Sham potential and energy components of (time-dependent) density functional theory</li>
-  	<li>Implementation of various approximate functionals (established and novel) for comparison</li>
-  	<li>Established and novel localisation measures</li>
-  	<li>Many-body perturbation theory</li>
-	</ul>
+		The principle goal of the iDEA code is to improve the accuracy of approximations within fundamental theories of many-electron quantum mechanics. It has a central role in a number of research projects related to many-particle quantum mechanics for electrons in matter.
+
+		<b>iDEA's main features:</b>
+		<ul>
+		<li>Exact solution of the many-electron problem by solving the static and time-dependent Schrödinger equation, including exact exchange and correlation.</li>
+		<li>Exact solutions which approach the degree of exchange and correlation in realistic systems.</li>
+		<li>Free choice of external potential that may be time-dependent, on an arbitrarilty dense spatial grid, for any number of electron with any spin configuration.</li>
+		<li>Implementation of various approximate methods (established and novel) for comparison, including:</li>
+		<li>Non-interacting electrons</li>
+		<li>Hartree theory</li>
+		<li>Restricted and unrestricted Hartree-Fock</li>
+		<li>The Local Density Approximation (LDA)</li>
+		<li>Hybrid functionals</li>
+		<li>Implementation of all common observables.</li>
+		<li>Reverse-engineering to solve potential inversion, from exact Kohn-Sham DFT and beyond.</li>
+		<li>Fully parallelised using OpenBLAS.</li>
+		<li>Fully parallelised for all cuda supporting GPUS.</li>
+		</ul>
         <br>
 
 	<b>The methodology:</b>
