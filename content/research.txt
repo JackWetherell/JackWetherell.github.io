@@ -39,7 +39,7 @@
           I also organsied the 2021 GDR REST Machine Learning Discussion Meeting in Palaiseau, and my introductory talk on the basics of machine learning can be found on YouTube:
           <br><br>
 
-          <iframe width="560" height="315" src="https://www.youtube.com/watch?v=4ydPIvfZQ8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4ydPIvfZQ8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
           <b>Many-Body Perturbation Theory</b><br>
 	  One of my main branches of research involve investigating existing, and developing novel, corrections to methods within Many-Body Perturbation Theory (MBPT). MBPT is
