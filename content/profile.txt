@@ -4,13 +4,13 @@
              <img style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px" src="images/outguess.jpg" width="140"/>
 
 I am a research scientist in the fields of autonomous vehicles and quantum technologies, specializing in machine learning, computer vision, simulation and data science.
-<br>
+<br><br>
 I currently head-up the autonomous vehicle (AV) modeling and simulation team within data science at Humn, where I am using machine learning for the creation of predictive models of AV risk for the platform's context-aware, real-time behavioral and environmental risk engine.  I deploy many types of real-world automated driving systems in state-of-the-art simulators in a range of diverse scenarios, in order to create machine-learned models of the vehicle environment interaction. These models are built using industry-leading technologies and frameworks. We also work closely with the University of Salford AV lab, making use of the self-driving technology and simulation facilities.
-<br>
+<br><br>
 Prior to my current role, I completed a postdoctoral research contract at the Ecole Polytechnique in Paris. My research was focused on the development and integration of modern machine learning and theoretical techniques for the development of cutting edge quantum technology, in particular, the real-time prediction of molecular electronics. This work followed on from my PhD research at the York Center of Quantum Technologies. 
-<br>
+<br><br>
 I am also the lead developer of the iDEA code, which is an a free software framework in python for experiments, testing and education in many-body quantum physics with a focus on reputability, interactivity and simplicity.
-<br>
+<br><br>
 I am also the lead developer of the <a href="http://www-users.york.ac.uk/~rwg3/idea.html">iDEA code</a>, which is an a free software framework in python for experiments, testing and education in many-body quantum physics with a focus on reputability, interactivity and simplicity.
 <p>
 I am an associate member of the <a href="https://www.iop.org/">Institute of Physics</a> (IOP), a member of the
