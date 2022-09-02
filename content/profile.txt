@@ -9,8 +9,6 @@ I currently head-up the autonomous vehicle (AV) modeling and simulation team wit
 <br><br>
 Prior to my current role, I completed a postdoctoral research contract at the Ecole Polytechnique in Paris. My research was focused on the development and integration of modern machine learning and theoretical techniques for the development of cutting edge quantum technology, in particular, the real-time prediction of molecular electronics. This work followed on from my PhD research at the York Center of Quantum Technologies. 
 <br><br>
-I am also the lead developer of the iDEA code, which is an a free software framework in python for experiments, testing and education in many-body quantum physics with a focus on reputability, interactivity and simplicity.
-<br><br>
 I am also the lead developer of the <a href="http://www-users.york.ac.uk/~rwg3/idea.html">iDEA code</a>, which is an a free software framework in python for experiments, testing and education in many-body quantum physics with a focus on reputability, interactivity and simplicity.
 <p>
 I am an associate member of the <a href="https://www.iop.org/">Institute of Physics</a> (IOP), a member of the
