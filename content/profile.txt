@@ -18,7 +18,7 @@ I am an associate member of the <a href="https://www.iop.org/">Institute of Phys
 <a href = "https://www.york.ac.uk/physics/ycqt/">York Centre for Quantum Technologies</a> (YCQT).
 </p><br>
 <div style="text-align: center;">
-<img src="images/logos.png" alt="Logos" width="325">
+<img src="images/logos.png" alt="Logos" width="425">
 </div>
 </br></br><b>Contact information:</b>
 <p>Address: York, UK</p>
