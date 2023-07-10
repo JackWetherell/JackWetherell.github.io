@@ -2,6 +2,11 @@
         <div class="contentTitle"><h1>Collaborators</h1></div>
         <div class="contentText">
 
+          <p>Walt Disney Imagineering, Disney Research, Los Angeles, CA, USA:</p>
+          <ul>
+          <li><b>Postdoc Supervisor:</b> <a href="https://la.disneyresearch.com/researchers/">Erick Moen</a> (R&D Imagineer Principal)</li>
+          <li><a href="https://la.disneyresearch.com/researchers/">Lanny Smoot</a> (Research Fellow)</li>
+          </ul>
 
           <p>École Polytechnique, Laboratoire des Solides Irradiés, 91120 Palaiseau, Paris, France:</p>
           <ul>
