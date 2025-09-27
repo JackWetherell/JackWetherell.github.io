@@ -10,14 +10,10 @@
 
           <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/AYbFZHLRGqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
-          At Walt Disney Imagineering I have developed technologies in robotics, simulation, and interactive systems for Disney theme parks. Key contributions included the HoloTile Floor project, where I created simulators,
-          VR/AR interfaces, multi-player game prototypes, and show systems to explore new forms of guest immersion. I also advanced research in localization and reinforcement learning for 
-          rapidly prototyped robotic characters. During this time, I filed patents covering interactive floor systems, projection technologies, VR/AR calibration, and neural-network-based 
-          simulation methods.Developed technologies in robotics, simulation, and interactive systems for Disney theme parks. Key contributions included the HoloTile Floor project, where I
-          created simulators, VR/AR interfaces, multi-player game prototypes, and show systems to explore new forms of guest immersion. I also advanced research in localization and reinforcement 
-          learning for rapidly prototyped robotic characters. During this time, I filed patents covering interactive floor systems, projection technologies, VR/AR calibration, 
-          and neural-network-based simulation methods. I also worked on early-stage research bridging robotics, perception, guest interaction, and embedded systems. Contributed to computer vision, simulation, and 
-          data-driven approaches to enhance guest experiences, with outcomes supporting patents, prototypes, and public showcases.
+          At Walt Disney Imagineering I work on inventing, researching and developing technologies to create magic in Disney theme parks.
+
+          I have developed technologies in robotics, simulation, and interactive systems for Disney theme parks. Key contributions included the HoloTile Floor project, where I created simulators, VR/AR interfaces, multi-player game prototypes, and show systems to explore new forms of guest immersion. I also advanced research in localization and reinforcement learning for rapidly prototyped robotic characters. During this time, I filed patents covering interactive floor systems, projection technologies, VR/AR calibration, and neural-network-based simulation methods.
+          I have worked on early-stage research bridging robotics, perception, guest interaction, and embedded systems. Contributed to computer vision, simulation, and data-driven approaches to enhance guest experiences, with outcomes supporting patents, prototypes, and public showcases.
 
           <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/1KEtxTQUzxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
           <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/h8dT20wOEhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
