@@ -7,7 +7,7 @@
           <table>
           <tr>
             <th>11</th>
-            <th><a href="https://ieeexplore.ieee.org/document/10078864" class="list-group-item">"Deriving Environmental Risk Profiles for Autonomous Vehicles From Simulated Trips, J. Anih; S. Kolekar; T. Dargahi; M. Babaie; M. Saraee; J. Wetherell. IEEE (2023). </a> </th>
+            <th><a href="https://ieeexplore.ieee.org/document/10078864" class="list-group-item">"Deriving Environmental Risk Profiles for Autonomous Vehicles From Simulated Trips", J. Anih; S. Kolekar; T. Dargahi; M. Babaie; M. Saraee; J. Wetherell. IEEE (2023). </a> </th>
             <th><b><a href="files/av1.pdf">Reprint</a></b></th>
             <th><b><a href="https://ieeexplore.ieee.org/document/10078864">Preprint</a></b></th>
           </tr>
