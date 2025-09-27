@@ -6,7 +6,6 @@
           <ul>
           <li><a href="https://la.disneyresearch.com/researchers/">Lanny Smoot</a> (Disney Research Fellow)</li>
           <li><a href="https://la.disneyresearch.com/researchers/">Michael Hopkins</a> (R&D Imagineer Principal)</li>
-          <li><a href="https://la.disneyresearch.com/researchers/">Quinn Smithwick</a> (Senior Research Scientist)</li>
           <li><a href="https://la.disneyresearch.com/researchers/">Erick Moen</a> (R&D Imagineer Principal)</li>
           <li><a href="https://la.disneyresearch.com/researchers/">Doug Fidaleo</a> (Director, Research Lab)</li>
           </ul>

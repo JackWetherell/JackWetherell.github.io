@@ -77,7 +77,7 @@
         <div class="contentText">
           <ul>
           <li><a href="files/jw1294_thesis.pdf">Electron correlation and screening in model nanostructures (PhD Thesis)</a></li>
-	</br></br></br>
+          </br></br></br>
       </div>
 
       <table>
