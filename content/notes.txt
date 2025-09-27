@@ -1,6 +1,0 @@
-    </div>
-      <div class="contentText">
-        <br>
-        <a href="https://github.com/JackWetherell"><img src="images/github.png" width="40" alt="GitHub"></a>
-      </div>
-    </div>
