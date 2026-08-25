@@ -1,3 +1,0 @@
-<div id="footer"><font color="white">Webpage design: </font><a href="http://www.bryantsmith.com">bryant smith</a></div>
-</body>
-</html>

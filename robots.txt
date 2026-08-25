@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jackwetherell.github.io/sitemap.xml
